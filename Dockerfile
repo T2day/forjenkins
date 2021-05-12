@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+FROM 
+#ubuntu:latest
 RUN apt update
 RUN apt install -y nginx loki 
 
